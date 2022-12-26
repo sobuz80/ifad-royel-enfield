@@ -1,0 +1,26 @@
+/* #arrow .slick-next:before {
+  content: ' U+F285';
+  color: red;
+  height: 10px;
+} */
+#arrow .slick-next:before {
+  content: '' !important;
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-image: url(/src/asset/images/chevron.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#arrow .slick-prev:before {
+  content: '' !important;
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-image: url(/src/asset/images/chevron.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  transform: rotate(180deg);
+}
